@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/Home.css">
+    <script src="../static/js.js" defer></script>
+    <title>Calentamiento Global</title>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <h1>Calentamiento Global</h1>
+            <div class="auth-buttons">
+                <a href="/register" class="btn">Registrarse</a>
+                <a href="/login" class="btn">Iniciar sesión</a>
+                <a href="{{ url_for('forum') }}" class="btn">Ir al Foro</a>
+                <a href="/logout" id="logout-btn" class="btn" style="display: none;">Cerrar sesión</a>
+            </div>
+        </header>
+        <nav class="cards-container">
+            <a href="https://wordwall.net/es/resource/20273960/calentamiento-global" target="_blank" class="card">
+                <img src="../static/img/descarga (1).jpeg" alt="Imagen para ordenar por grupo">
+                <div class="card-content">Ordenar por grupo</div>
+            </a>
+            <a href="https://wordwall.net/es/resource/12646370/calentamiento-global-y-efecto-invernadero" target="_blank" class="card">
+                <img src="../static/img/descarga.jpeg" alt="Imagen de parejas">
+                <div class="card-content">Parejas</div>
+            </a>
+            <a href="https://wordwall.net/es/resource/11155678/calentamiento-global" target="_blank" class="card">
+                <img src="../static/img/images.png" alt="Imagen de cuestionario">
+                <div class="card-content">Cuestionario</div>
+            </a>
+        </nav>
+        <main>
+            <a href="{{ url_for('info') }}" class="btn">Contenido principal sobre el calentamiento global</a>
+        </main>
+        </main>
+    </div>
+</body>
+</html>
