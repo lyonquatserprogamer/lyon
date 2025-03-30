@@ -1,5 +1,5 @@
 # Descripción
-Esta pagina web desarollada con python es para aprender sobre el calentamiento global y divertirse a la ves con unos juegos sobre el calentaminto global y informacion con un foro donde podran escribir y leer sobre el calentaminto global(no se toleran insultos discusiones y otras cosas si se encuentra que as hecho algo de esto uds. sera permamentemente eliminado de la aplicacion)
+Esta pagina web desarollada con python es para aprender sobre el calentamiento global y divertirse a la ves con unos juegos sobre el calentaminto global y informacion con un foro donde podran escribir y leer sobre el calentaminto global(no se toleran insultos discusiones y otras cosas si se encuentra que as hecho algo de esto uds. sera permanentemente eliminado de la aplicacion)
 # files
 python
 html
